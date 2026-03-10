@@ -1,0 +1,163 @@
+body {
+    background-image: url("fundo3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+    text-align: center;
+    background-color: #0b0b0f;
+    margin: 0;
+    padding: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    color: #ffffff;
+    font-weight: 700;
+}
+
+h2 {
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.container {
+    display: flex;
+    margin-left: 80px;
+}
+
+.interface {
+    background: #24243b;
+    padding: 25px;
+    border-radius: 10px;
+    width: 330px;
+    margin: 10px;
+    box-shadow: 0 0 25px #00000080;
+}
+
+.consulta {
+    background: #24243b;
+    padding: 25px;
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow: 0 0 25px #00000080;
+}
+
+.cadastro {
+    background: #24243b;
+    padding: 25px;
+    border-radius: 10px;
+    width: 330px;
+    margin: 0 auto;
+    box-shadow: 0 0 40px #6a00ff80;
+}
+
+label {
+    font-weight: 500;
+    color: #c9c9c9;
+}
+
+.campos {
+    padding: 10px;
+    color: #ffffff;
+    border-radius: 8px;
+    width: 230px;
+    font-family: 'Poppins', sans-serif;
+    background-color: #1f1f2e;
+}
+
+textarea {
+    resize: none;
+    
+}
+
+.col-sinopse {
+    width: 300px;
+    max-width: 300px;
+    word-wrap: break-word;
+    white-space: normal;
+}
+
+.nomeFilme {
+    color: #6a00ff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.icones-tabela {
+    width: 28px;
+    height: 28px;
+    cursor: pointer;
+    filter: brightness(0.9);
+}
+
+.botao {
+    background-color: #6a00ff;
+    color: #ffffff;
+    padding: 12px;
+    border: none;
+    border-radius: 30px;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+.botao:hover {
+    background-color: #5200c9;
+}
+
+.botao-link {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    background-color: #6a00ff;
+    color: #ffffff;
+    padding: 10px 18px;
+    text-decoration: none;
+    border-radius: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    z-index: 9999;
+}
+
+.botao-link:hover {
+    background-color: #5200c9;
+}
+
+hr {
+    margin: 20px 0;
+}
+
+table, th, td, tr {
+    border: none;
+}
+
+table {
+    width: 1000px;
+    margin: 0 auto;
+    border-collapse: separate;
+    border-spacing: 0;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #1b1b26;
+    box-shadow: 0 4px 25px #00000080;
+}
+
+th,
+.cabecalho {
+    background-color: #6a00ff;
+    color: #ffffff;
+    font-weight: 600;
+    padding: 12px;
+}
+
+td {
+    padding: 10px 12px;
+    border-top: 1px solid #333;
+    color: #e3e3e3;
+}
+
+tr:nth-child(even) td {
+    background-color: #161621;
+}
